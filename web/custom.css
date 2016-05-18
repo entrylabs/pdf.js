@@ -1,0 +1,37 @@
+.toolbar{
+    display: none;
+}
+
+.floatToolbarMenu {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    z-index: 9999;
+}
+
+.floatToolbarMenu > button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    display: block !important;
+    margin: 0 0 40px 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border: 0 !important;
+}
+.floatToolbarMenu > button:hover {
+    border: 0 !important;
+}
+button#popupMode {
+    background: url('images/custom/zoom_off.png') no-repeat;
+}
+button#download {
+    background: url('images/custom/download_off.png') no-repeat;
+}
+button#popupMode:hover {
+    background: url('images/custom/zoom_on.png') no-repeat;
+}
+button#download:hover {
+    background: url('images/custom/download_on.png') no-repeat;
+}

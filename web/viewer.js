@@ -179,4 +179,10 @@ function webViewerLoad() {
 //#endif
 }
 
+function openPdfPopup() {
+  if (parent.window.Entry) {
+    parent.window.Entry.dispatchEvent('openPdfWindow');
+  }
+}
+
 document.addEventListener('DOMContentLoaded', webViewerLoad, true);
