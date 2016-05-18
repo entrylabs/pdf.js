@@ -35,3 +35,7 @@ button#popupMode:hover {
 button#download:hover {
     background: url('images/custom/download_on.png') no-repeat;
 }
+
+#viewerContainer {
+    top: 10px !important;
+}
