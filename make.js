@@ -139,6 +139,7 @@ target.generic = function() {
       ['web/compatibility.js', GENERIC_DIR + '/web'],
       ['web/compressed.tracemonkey-pldi-09.pdf', GENERIC_DIR + '/web'],
       ['external/bcmaps/*', GENERIC_DIR + '/web/cmaps/'],
+      ['web/custom.css', GENERIC_DIR + '/web'],
       ['web/locale', GENERIC_DIR + '/web']
     ],
     preprocess: [
