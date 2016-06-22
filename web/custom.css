@@ -2,6 +2,10 @@
     display: none;
 }
 
+.entryRemove {
+    display: none;
+}
+
 .floatToolbarMenu {
     position: absolute;
     top: 10%;
