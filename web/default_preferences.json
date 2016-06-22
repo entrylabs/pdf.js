@@ -1,6 +1,6 @@
 {
   "showPreviousViewOnLoad": true,
-  "defaultZoomValue": "page-fit",
+  "defaultZoomValue": "page-width",
   "sidebarViewOnLoad": 0,
   "enableHandToolOnLoad": false,
   "enableWebGL": false,
